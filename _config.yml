@@ -18,13 +18,13 @@ minimal_mistakes_skin    : "elbsides" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Elbsides"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Elbsides team"
+description              : "The home of the Elbsides conference in Hamburg Germany."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   :  "/assets/images/elbsides_teaser_500x500.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     :  "/assets/images/elbsides_logo_88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -83,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "elbsides"
 facebook:
   username               :
   app_id                 :
@@ -92,7 +92,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -106,10 +106,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Peter Pan"
+  name             : "Elbsides tem"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              :  "This is the Elbsides conference team."
+  location         : "Hamburg, Germany"
   email            :
   links:
     - label: "Email"
@@ -286,7 +286,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
