@@ -15,5 +15,6 @@ const banner = `/*!
 `;
 
 if (script.slice(0, 3) != "/**") {
-  fs.writeFileSync(filename, banner + script);
+    fs.writeFileSync(filename, banner + script);
+    console.log('Wrote new main Javascript file to ', filename);
 }
