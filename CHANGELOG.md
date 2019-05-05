@@ -8,6 +8,7 @@
 
 ### Maintenance
 
+- Changed from white to black text
 - Removed elements of the original minimal-mistakes theme that weren't
   needed for our purposes. Mainly, this is to avoid upstream
   vulnerabilities and simplify maintenance going forward given that
