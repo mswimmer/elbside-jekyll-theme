@@ -1,7 +1,8 @@
 # main links
 main:
   - title: "About"
-    url: /about.html
-  - title: "Programme"
-    url: /programme.html
+    url: /about
+  - title: "Grid"
+    url: /grid
+
     
