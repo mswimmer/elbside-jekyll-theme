@@ -2,8 +2,8 @@
 main:
   - title: "About"
     url: /about
-#  - title: "Sponsors"
-#    url: /sponsors
+  - title: "Grid"
+    url: /grid
 #  - title: "Venue"
 #    url: /venue
 #  - title: "CfP"
