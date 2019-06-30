@@ -2,11 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "elbsides-jekyll-theme"
-<<<<<<< HEAD
-  spec.version       = "0.1.3"
-=======
-  spec.version       = "0.1.4"
->>>>>>> refs/heads/0.1.4
+  spec.version       = "0.1.5"
   spec.authors       = ["Morton Swimmer"]
   spec.email         = ["morton.swimmer@gmail.com"]
 
